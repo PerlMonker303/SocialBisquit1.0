@@ -1,0 +1,205 @@
+body{
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+#main-page-section1{
+  background-color: #282c34;
+  width: 100%;
+  height: 554px;
+  padding: 10px;
+  text-align: center;
+  padding-top: 190px;
+  color: #fff;
+}
+
+#main-page-section1>h1{
+  background-color: #2483c1;
+  width: 250px;
+  font-weight: bold;
+  padding: 0.8em 0.6em;
+  margin: auto;
+  user-select: none;
+
+}
+
+#main-page-section1>h2{
+  font-style: italic;
+}
+
+#main-page-section1>img{
+  margin-top: 30px;
+  /*with pulsating animation to make you scroll down*/
+  width: 5em;
+  height: 5em;
+}
+
+#main-page-section1>button{
+  margin-top: 50px;
+  padding: 0.8em;
+  background-color: #d63e34;
+  border-style: none;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 16px;
+  box-shadow: inset 0px -5px 10px -7px black;
+  width: 142px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+#main-page-section1>button:hover{
+  color: #d63e34;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#main-page-section2{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  padding: 50px 10px;
+}
+#main-page-section2>p{
+  font-size: 1.05em;
+}
+
+#main-page-section3{
+  padding-top: 50px;
+  width: 100%;
+  height: 480px;
+  text-align: center;
+  background-color: #282c34;
+  color: #fff;
+  padding: 10px;
+}
+
+#main-page-section3>h1{
+  margin-top: 30px;
+}
+
+#live-statistics{
+  padding: 1em;
+  text-align: center;
+  background-color: #fff;
+  color: #444;
+  width: 300px;
+  margin: auto;
+}
+
+.left-span{
+  display: block;
+}
+
+.right-span{
+  display: inline-block;
+  color: #d63e34;
+}
+
+#main-page-section4{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding: 50px 10px;
+}
+
+#main-page-section4>p{
+  color: #444;
+  font-style: italic;
+}
+
+#main-page-section4>p>a{
+  color: #d63e34;
+  text-decoration: none;
+}
+
+#btnReg{
+  margin-top: 20px;
+  padding: 0.6em;
+  background-color: #01b317;
+  border-style: none;
+  color: #fff;
+  font-size: 1.2em;
+  box-shadow: inset 0px -5px 10px -7px black;
+  width: 125px;
+  transition: 0.3s;
+}
+
+#btnReg:hover{
+    background-color: #08bf1f;
+}
+
+#main-page-section5{
+  background-color: #282c34;
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding-top: 20px;
+  padding: 10px;
+}
+
+#main-page-section5>h2{
+
+}
+
+#main-page-section5>ul{
+  width: 80%;
+  margin: auto;
+  list-style-type:none;
+}
+
+#footer{
+  background-color: #2483c1;
+  width: 100%;
+  height: 64px;
+  color: #fff;
+  text-align: center;
+  padding: 30px 10px 10px 10px;
+}
+
+#links{
+  display: block;
+  width: 120px;
+  margin: auto;
+  text-align: center;
+}
+
+#links>ul{
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+#links>ul>li{
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fa-facebook{
+  color: #fff;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.fa-linkedin{
+  color: #fff;
+  transition: 0.3s;
+}
+
+.fa-youtube-play{
+  color: #fff;
+  transition: 0.3s;
+  vertical-align: -1px;
+}
+
+.fa-facebook:hover, .fa-linkedin:hover{
+  color: #111;
+}
+
+.fa-youtube-play:hover{
+  color: #d63e34;
+}

@@ -1,0 +1,148 @@
+#setup-container-header, #setup-container-steps, #setup-container-main{
+	padding: 0.4em 0.8em;
+	margin: auto;
+	width: 90%;
+	background-color: #f8f8f8;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+	margin-top: 25px;
+}
+
+#progress-bar-bg{
+	width: 90%;
+	height: 35px;
+	margin: 15px auto auto auto;
+	position: relative;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+}
+
+#progress-bar-loaded1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 35px;
+	width: 20%;
+	background-color: #009aff;
+}
+
+#progress-bar-loaded2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 35px;
+	width: 40%;
+	background-color: #009aff;
+}
+
+#progress-bar-loaded3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 35px;
+	width: 60%;
+	background-color: #009aff;
+}
+
+#progress-bar-loaded4{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 35px;
+	width: 80%;
+	background-color: #009aff;
+}
+
+#progress-bar-loaded5{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 35px;
+	width: 100%;
+	background-color: #009aff;
+}
+
+#setup-container-main>p{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#setup-container-main>span{
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+#setup-container-main>select{
+    max-width: 90%;
+    padding: 0.2em;
+}
+
+[name='_secretAnswer']{
+    padding: 0.2em;
+}
+
+[name='secretAnswerSwitch']{
+    background-color: #2483c1;
+    border-style: none;
+    color: #fff;
+    padding: 0.4em 0.6em;
+    font-style: italic;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+[name='secretAnswerSwitch']:hover{
+    background-color: #009aff;
+}
+
+[name='_secretAnswerError']{
+    display: none;
+    font-style: italic;
+    background-color: #d63e34;
+    padding: 0.4 0.8em;
+    color: #fff;
+    border-radius: 8px;
+	margin: auto;
+	margin-top: 10px;
+    font-weight: normal !important;
+}
+
+.nextButton{
+	display: block;
+	padding: 0em 0.4em;
+	background-color: #d63e34;
+	border-style: none;
+	color: #fff;
+	font-size: 1.2em;
+	width: 142px;
+	transition: 0.3s;
+	font-weight: bold;
+	margin: 10px auto;
+}
+
+.nextButton:hover{
+	color: #d63e34;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+[name='_setupPicLoaded']{
+    margin: 10px auto;
+}
+
+[name='_textareaBio']{
+	display: block;
+	width: calc(100% - 86px);
+	max-width: 650px;
+	min-width: 198px;
+	min-height: 80px;
+	max-height: 180px;
+	resize: vertical;
+	padding: 10px;
+	border: none;
+	margin: auto;
+}

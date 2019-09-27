@@ -1,0 +1,146 @@
+#container-notifications-page{
+    padding: 0.4em 0.8em;
+	margin: auto;
+	width: 90%;
+	background-color: #f8f8f8;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+	margin-top: 25px;
+}
+
+#container-notifications-page>h2{
+	text-align: center;
+	background-color: #2483c1;
+    color: #fff;
+	width: 70%;
+	min-width: 200px;
+	max-width: 400px;
+    margin: 20px auto;
+}
+}
+
+#container-notifications-page-frequest{
+	position: relative;
+	padding: 0em 1em;
+}
+
+#container-notifications-page-frequest>h3{
+	text-align: left;
+}
+
+#container-notifications-page-frequest>span{
+	font-size: 1.1em;
+	text-align: left;
+	margin-left: 1em;
+}
+
+#container-notifications-page-unread, #container-notifications-page-read, #container-notifications-page-frequest{
+	padding: 1em;
+	position: relative;
+}
+
+#container-notifications-page-unread>h3, #container-notifications-page-read>h3, #container-notifications-page-frequest>h3{
+	text-align: left;
+}
+
+#container-notifications-page-unread>h3>img, #container-notifications-page-read>h3>img, #container-notifications-page-frequest>h3>img{
+	width: 2em;
+	height: 2em;
+	margin-right: 8px;
+	vertical-align: -9px;
+}
+
+#container-notifications-page-read{
+	padding: 1em;
+	position: relative;
+}
+
+.container-notifications-page-frame, .container-notifications-page-frame-freq{
+	background-color: #f8f8f8;
+	color: #fdf7f7;
+	position: relative;
+	border-bottom: 3px solid #eee;
+    text-align: left;
+    padding: 10px 6px;
+}
+
+.container-notifications-page-frame:hover, .container-notifications-page-frame-freq:hover{
+	background-color: #e6e6e6;
+}
+
+.container-notifications-page-frame:nth-child(even), .container-notifications-page-frame-freq:nth-child(even){
+	background-color: #fcfcfc;
+}
+
+.container-notifications-page-frame>span, .container-notifications-page-frame-freq>span{
+	font-size: 1.1em;
+	text-align: left;
+	font-weight: bold;
+    color: #555;
+    font-size: 14px;
+}
+
+.container-notifications-page-frame>span>i, .container-notifications-page-frame-freq>span>i{
+	font-weight: bold;
+	user-select: none;
+	font-weight: bold;
+	color: #b3382c;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.container-notifications-page-frame>span>i:hover, .container-notifications-page-frame-freq>span>i:hover{
+	cursor: pointer;
+}
+
+.container-notifications-page-frame>span>img, .container-notifications-page-frame-freq>span>img{
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	margin-right: 0.3em;
+    background-color: #d63e34;
+}
+
+.container-notifications-page-frame>button, .container-notifications-page-frame-freq>button{
+	display: inline-block;
+	margin-bottom: 0.5em;
+	max-width: 200px;
+	border: none;
+	background-color: #d63e34;
+	color: #fff;
+	margin: auto;
+	padding: 0.4em;
+	margin-left: 10px;
+}
+
+.container-notifications-page-frame>button:hover, .container-notifications-page-frame-freq>button:hover{
+	background-color: #b3382c;
+	cursor: pointer;
+}
+
+
+
+[name="_notifDateOf"]{
+    position: absolute;
+	bottom: 0px;
+	right: 10px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+[name="_notificationsOptionsButton"]{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 13px;
+}
+
+[name="_notificationsReadButton"]{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	font-size: 13px;
+}
+
+#container-specific-post{
+	margin: 10px auto;
+}

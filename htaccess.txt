@@ -1,0 +1,1 @@
+Redirect / http://localhost/socialBisquit/main.php

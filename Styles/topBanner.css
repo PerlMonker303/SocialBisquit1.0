@@ -1,0 +1,209 @@
+#container-top-banner{
+  background-color: #282c34;
+  /*box-shadow: inset 0px -3px 6px -5px black;*/
+  z-index: 6;
+  position: relative;
+  top: 0px;
+}
+
+.main-buttons{
+  background-color: #2483c1;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8em;
+  border-style: none;
+  box-shadow: inset 0px -3px 10px -5px black;
+  font-size: 1.1em;
+}
+
+.main-buttons:hover, .menu-buttons:hover, .menu-buttons-register:hover{
+  background-color: #009aff;
+  cursor: pointer;
+}
+
+.main-buttons>img{
+  width: 1em;
+  height: 1em;
+}
+
+
+[name='btn1']{
+  position: absolute;
+  top: 0px;
+  right: 180px;
+  transition: 0.3s;
+}
+
+[name='btn2']{
+  position: absolute;
+  top: 0px;
+  right: 283px;
+  transition: 0.3s;
+}
+
+[name='btnLogo']{
+  position: absolute;
+  top: 0px;
+  left: 190px;
+  transition: 0.3s;
+}
+
+[name='btnLogoMain']{
+  position: fixed;
+  top: 0px;
+  left: 190px;
+  transition: 0.3s;
+}
+
+[name='btnMenu']{
+  position: fixed;
+  top: 0px;
+  right: -100px;
+}
+
+[name='btnMenuHidden']{
+  position: absolute;
+  top: 0px;
+  right: -100px;
+}
+
+[name='btnFreq']{
+  position: fixed;
+  top: 0px;
+  right: 300px;
+  transition: 0.3s;
+}
+
+[name='btnNotif']{
+  position: fixed;
+  top: 0px;
+  right: 245px;
+  transition: 0.3s;
+}
+
+[name='btnNotifCounter']{
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  right: 254px;
+  transition: 0.5s;
+  background-color: #2483c1;
+  border-radius: 10px;
+  width: 24px;
+}
+
+[name='btnProfile']{
+  position: fixed;
+  top: 0px;
+  right: 190px;
+  transition: 0.3s;
+}
+
+[name='btnFreqMobile']{
+  box-shadow: none;
+}
+
+[name='btnNotifMobile']{
+  box-shadow: none;
+}
+
+[name='btnProfileMobile']{
+  box-shadow: none;
+}
+
+[name='btnMenuMobile']{
+  box-shadow: none;
+}
+
+#container-top-banner-hidden{
+  position: fixed;
+  top: -49px;
+  transition: top 0.3s;
+  height: 49px;
+  width: 100%;
+  background-color: #2483c1;
+  z-index: 6;
+}
+
+#container-top-banner-hidden>button{
+  box-shadow: inset 0px 0px 0px 0px black;
+}
+
+#container-top-banner-menu{
+  position: absolute;
+  top: -3px;
+  left: 0px;
+  transition: top 0.3s;
+  width: 309px;
+  background-color: #2483c1;
+  text-align: center;
+  /*box-shadow: inset 0px -3px 10px -5px black;*/
+}
+
+#container-top-banner-menu>span{
+  display: inline-block;
+  margin: auto;
+  user-select: none;
+  color: #fff;
+  text-align: center;
+}
+
+.menu-buttons{
+  font-size: 1.1em;
+  padding: 0.8em;
+  font-weight: 500;
+
+}
+
+#container-top-banner-register{
+  position: absolute;
+  top: 0px;
+  transition: top 0.3s;
+  height: 49px;
+  width: 100%;
+  background-color: #2483c1;
+}
+
+#container-top-banner-register>button{
+  box-shadow: none;
+}
+
+#container-top-banner-register-menu{
+  position: absolute;
+  top: -49px;
+  color: #fff;
+  transition: top 0.3s;
+  width: 309px;
+  height: 49px;
+  background-color: #2483c1;
+}
+
+#container-top-banner-register-menu>button{
+  margin-top: 10px;
+}
+
+.menu-buttons-register{
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 0.8em;
+  display: inline-block;
+  text-align: center;
+  height: 21px;
+}
+
+#logoButtonMobile{
+  position: absolute;
+  top: -100px;
+  left: 0px;
+}
+
+#container-top-banner-mobile{
+  position: fixed;
+  top: -49px;
+  right: 0px;
+  transition: 0.3s;
+  height: 46px;
+  width: 197px;
+  background-color: #2483c1;
+  z-index: 6;
+}
