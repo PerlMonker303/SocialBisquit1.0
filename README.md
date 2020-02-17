@@ -33,3 +33,15 @@ It also serves the purpose of a dating platform, providing users with options to
   </ul>
   
 </ul>
+
+<h2>Screenshots</h2>
+
+![Test Image 1](pic1.png)
+
+![Test Image 1](pic2.png)
+
+![Test Image 1](pic3.png)
+
+![Test Image 1](pic4.png)
+
+![Test Image 1](pic5.png)
